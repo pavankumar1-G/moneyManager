@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+.transaction-item {
+  border: 1px solid #cbd5e1;
+  padding-left: 0;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title-cell {
+  font-size: 10px;
+  color: #7e858e;
+  font-weight: 600;
+  width: 70px;
+  padding-left: 10px;
+}
+.amount-cell {
+  font-size: 10px;
+  color: #7e858e;
+  font-weight: 600;
+  width: 70px;
+  padding-left: 15px;
+}
+.type-cell {
+  font-size: 10px;
+  color: #7e858e;
+  font-weight: 600;
+  width: 70px;
+  padding-left: 15px;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-item {
+    border: 1px solid #cbd5e1;
+    padding-left: 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .title-cell {
+    font-size: 10px;
+    color: #7e858e;
+    font-weight: 600;
+    width: 70px;
+    padding-left: 8px;
+  }
+  .amount-cell {
+    font-size: 10px;
+    color: #7e858e;
+    font-weight: 600;
+    width: 70px;
+    padding-left: 6px;
+  }
+  .type-cell {
+    font-size: 10px;
+    color: #7e858e;
+    font-weight: 600;
+    width: 70px;
+    padding-left: 3px;
+  }
+  .delete-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
